@@ -1,0 +1,10 @@
+﻿<Application x:Class="GW_SimpleMVVMTemplate.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:GW_SimpleMVVMTemplate"
+             xmlns:vm="clr-namespace:GW_SimpleMVVMTemplate.ViewModels"
+             StartupUri="Views/MainWindow.xaml">
+    <Application.Resources>
+        <vm:MainWindowViewModel x:Key="MainWindowViewModel"></vm:MainWindowViewModel>
+    </Application.Resources>
+</Application>
